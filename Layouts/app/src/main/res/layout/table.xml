@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="#646416">
+
+    <TableRow>
+        <TextView
+            android:text="Open.."
+            android:layout_column="1"
+            android:padding="3dp"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:textSize="24sp"
+            android:padding="3dp"
+            android:gravity="right"
+            android:text="CTRL-O"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Save.."
+            android:layout_column="1"
+            android:padding="3dp"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:textSize="24sp"
+            android:padding="3dp"
+            android:gravity="right"
+            android:text="CTRL-S"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Save As.."
+            android:layout_column="1"
+            android:padding="3dp"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:textSize="24sp"
+            android:padding="3dp"
+            android:text="CTRL-shift-S"/>
+
+    </TableRow>
+    <View
+        android:layout_height="4dp"
+        android:background="#303030"/>
+    <TableRow>
+        <TextView
+            android:text="Import"
+            android:layout_column="1"
+            android:padding="3dp"
+            android:textSize="24sp"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Export"
+            android:layout_column="1"
+            android:padding="3dp"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:textSize="24sp"
+            android:padding="3dp"
+            android:gravity="right"
+            android:text="CTRL-E"/>
+
+    </TableRow>
+    <View
+        android:layout_height="4dp"
+        android:background="#303030"/>
+    <TableRow>
+        <TextView
+            android:text="Exit"
+            android:padding="3dp"
+            android:layout_column="1"
+            android:textSize="24sp"/>
+    </TableRow>
+</TableLayout>

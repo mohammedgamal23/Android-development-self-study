@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Miwok language app (edited)</string>
+    <string name="category_phrases">Phrases</string>
+    <string name="category_colors">Colors</string>
+    <string name="category_numbers">Numbers</string>
+    <string name="category_family">Family Members</string>
+    <string name="Button_play">play</string>
+
+</resources>

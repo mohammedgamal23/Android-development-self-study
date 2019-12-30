@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edituser"
+        android:layout_height="wrap_content"
+        android:hint="user name.."
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password.."
+        android:id="@+id/editpass"
+        android:inputType="textPassword"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:id="@+id/chkremeber"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="167dp"
+        android:layout_height="79dp"
+        android:text="Sign in"
+        android:textSize="24dp"
+        android:id="@+id/btnsignin"
+        android:layout_margin="106dp" />
+
+</LinearLayout>

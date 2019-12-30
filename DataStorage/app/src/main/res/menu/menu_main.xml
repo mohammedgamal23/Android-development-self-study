@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_shared"
+        android:title="Shared Pref"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_file"
+        android:title="file IO"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_file_copy_black_18dp"/>
+    <item
+        android:id="@+id/action_sql"
+        android:title="SQLite"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_save_black_18dp"/>
+</menu>
